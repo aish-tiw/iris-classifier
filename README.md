@@ -1,28 +1,35 @@
-\# Iris Classifier (Decision Tree)
+# Iris Classifier 
 
+## Overview
 
+This project builds a machine learning model to classify iris flowers into one of three species:
+- Setosa
+- Versicolor
+- Virginica
 
-\## Overview
+We use two models:
+- Decision Tree Classifier (with hyperparameter tuning)
+- K-Nearest Neighbors (KNN)
 
-This is an end-to-end machine learning project that classifies iris flowers using a Decision Tree. It follows the typical ML pipeline: data loading, exploration, training, evaluation and interpretation — using the Iris dataset from scikit-learn.
+Evaluation includes accuracy, confusion matrix and feature importance. The notebook was developed in Google Colab using the classic Iris dataset from scikit-learn.
 
+---
 
+Click below to open the notebook directly in Colab — no installation needed:
 
-\## Quick Start
+[![Open In Colab](https://colab.research.google.com/github/aish-tiw/iris-classifier/blob/main/notebooks/iris_model.ipynb
+)
 
+---
 
+To run this locally, use these steps:
 
 ```bash
-
 git clone https://github.com/aish-tiw/iris-classifier.git
-
 cd iris-classifier
-
-python -m venv venv \&\& venv\\Scripts\\activate
-
+python -m venv venv && venv\Scripts\activate
 pip install -r requirements.txt
-
-jupyter notebook notebooks/iris\_model.ipynb
+jupyter notebook notebooks/iris_model.ipynb
 
 
 
