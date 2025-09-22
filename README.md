@@ -15,7 +15,7 @@ Evaluation includes accuracy, confusion matrix and feature importance. The noteb
 
 ---
 
-Click below to open the notebook directly in Colab — no installation needed:
+Click below to open the notebook directly in Colab (no installation needed):
 
 [![Open In Colab](https://colab.research.google.com/github/aish-tiw/iris-classifier/blob/main/notebooks/iris_model.ipynb
 )
