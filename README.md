@@ -1,35 +1,19 @@
-# Iris Classifier 
+
+
+
+# Iris Classifier (Decision Tree & KNN)
 
 ## Overview
+This project implements a simple machine learning pipeline on the classic Iris dataset.  
+It trains and evaluates a **Decision Tree Classifier** (with GridSearchCV for hyperparameter tuning) and a **K-Nearest Neighbors Classifier**.  
+The script saves both the **confusion matrix (PNG)** and the **trained model (.joblib)** into the `outputs/` folder.
 
-This project builds a machine learning model to classify iris flowers into one of three species:
-- Setosa
-- Versicolor
-- Virginica
+This repository is structured for reproducibility and assessment purposes.
 
-We use two models:
-- Decision Tree Classifier (with hyperparameter tuning)
-- K-Nearest Neighbors (KNN)
+## Quick Start
 
-Evaluation includes accuracy, confusion matrix and feature importance. The notebook was developed in Google Colab using the classic Iris dataset from scikit-learn.
-
----
-
-Click below to open the notebook directly in Colab (no installation needed):
-
-[![Open In Colab](https://colab.research.google.com/github/aish-tiw/iris-classifier/blob/main/notebooks/iris_model.ipynb
-)
-
----
-
-To run this locally, use these steps:
-
+Clone the repository:
 ```bash
 git clone https://github.com/aish-tiw/iris-classifier.git
 cd iris-classifier
-python -m venv venv && venv\Scripts\activate
-pip install -r requirements.txt
-jupyter notebook notebooks/iris_model.ipynb
-
-
 
