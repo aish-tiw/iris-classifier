@@ -1,14 +1,8 @@
 
-
-
-# Iris Classifier (Decision Tree & KNN)
+# Iris Classifier (Decision Tree)
 
 ## Overview
-This project implements a simple machine learning pipeline on the classic Iris dataset.  
-It trains and evaluates a **Decision Tree Classifier** (with GridSearchCV for hyperparameter tuning) and a **K-Nearest Neighbors Classifier**.  
-The script saves both the **confusion matrix (PNG)** and the **trained model (.joblib)** into the `outputs/` folder.
-
-This repository is structured for reproducibility and assessment purposes.
+End‑to‑end ML example from Digital Marketing Mastery Module → builds a decision‑tree classifier on the classic Iris dataset using scikit‑learn.
 
 ## Quick Start
 
