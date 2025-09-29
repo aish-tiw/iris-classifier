@@ -89,7 +89,7 @@ if args.model == "dt":
     cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=args.random_state)
     grid_search = GridSearchCV(estimator=dt, param_grid=param_grid, cv=cv, scoring="accuracy", n_jobs=-1)
 
-    # NOTE: This mirrors your notebook: fit on *scaled* features (even though DT doesn't need scaling)
+    
     grid_search.fit(X_train_scaled, y_train)
 
     print("Best parameters found:", grid_search.best_params_)
